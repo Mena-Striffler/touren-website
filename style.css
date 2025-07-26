@@ -1,0 +1,149 @@
+/* Grundlayout & Schrift */
+body {
+  font-family: 'Literata', serif;
+  font-size: 1.15em;
+  line-height: 1.7;
+  letter-spacing: 0.015em;
+  background-color: #121722;
+  color: #eae7e2;
+  margin: 0;
+  padding: 0;
+}
+
+/* Hauptüberschriften */
+h1, h2 {
+  font-family: 'Playfair Display', serif;
+  font-weight: normal;
+  font-size: 2em;
+  color: #ffffff;
+  text-align: center;
+  margin: 2em auto 1em;
+  padding: 0 2em;
+}
+
+/* Navigation */
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: flex-start;
+  gap: 2em;
+  padding: 1em 2em;
+  background-color: #1d2230;
+  margin: 0;
+}
+
+nav a {
+  text-decoration: none;
+  color: #c8c4be;
+  font-weight: bold;
+}
+nav a:hover {
+  color: #ffffff;
+}
+
+/* Fließtext */
+p {
+  text-align: left;
+  max-width: 860px;
+  margin: 1.5em auto;
+  padding: 0 2em;
+}
+
+/* Poetic Text */
+.poetic-text {
+  color: #d6c2aa;
+  font-style: italic;
+  max-width: 800px;
+  margin: 2em auto;
+  padding: 0 2em;
+  text-align: left;
+}
+
+/* Bilder zentriert */
+img {
+  display: block;
+  margin: 2em auto;
+  max-width: 100%;
+}
+
+/* Spezielles Bild – z. B. Bild des Monats */
+.bild-des-monats {
+  display: block;
+  margin: 3em auto;
+  max-width: 800px;
+  border-radius: 6px;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.3);
+}
+
+/* Weißer Inhaltsbereich */
+section {
+  background-color: #f7f4f0;
+  color: #333;
+  padding: 2em 3em;
+  margin: 3em auto;
+  max-width: 960px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  text-align: left;
+}
+
+/* Überschriften IN der weißen Box */
+section h2, section h3 {
+  color: #121722;
+  text-align: left;
+  margin-top: 0;
+}
+
+/* Galerie */
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2em;
+  justify-content: space-between;
+  margin: 2em auto;
+  max-width: 960px;
+  padding: 0 2em;
+}
+
+.gallery-item {
+  flex: 1 1 280px;
+  padding: 1em;
+  background-color: #fff;
+  border-radius: 6px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+  text-align: left;
+}
+
+.gallery-item img {
+  max-width: 100%;
+  border-radius: 4px;
+}
+
+/* Karte */
+.karte-img {
+  width: 90%;
+  max-width: 600px;
+  margin: 2em auto;
+  display: block;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+/* Tour-Zitat */
+.tour-zitat {
+  font-style: italic;
+  color: #999;
+  text-align: right;
+  max-width: 800px;
+  margin: 1.5em auto;
+  padding: 0 2em;
+}
+
+/* Footer */
+footer {
+  text-align: left;
+  font-size: 0.9em;
+  color: #ccc;
+  padding: 2em;
+  background-color: #1d2230;
+}
